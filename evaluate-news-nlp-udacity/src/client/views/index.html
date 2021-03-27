@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="./styles/resets.scss">
+        <link rel="stylesheet" href="./styles/base.scss">
+        <link rel="stylesheet" href="./styles/header.scss">
+        <link rel="stylesheet" href="./styles/form.scss">
+        <link rel="stylesheet" href="./styles/footer.scss">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                Logo
+            </div>
+            <div class="">
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="website" type="text" name="input" value=""  placeholder="Name">
+                    <input id="submit-button" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            </section>
+
+            <section>
+                <strong>Form Results:</strong>
+                <div id="Score-Tag" ><strong> Score-Tag :</strong></div>
+                <div id="agreement"><strong> Agreement : </strong></div>
+                <div id="set"> <strong>Set :</strong> </div>
+                <div id="irony"><strong> Irony :</strong></div>
+                <div id="con"> <strong>Confidence : </strong></div>
+                <div id="sub"><strong>Subjectivity:</strong>s</div>
+            </section>
+           
+        </main>
+// <script>
+ 
+ //if ('serviceWorker' in navigator) {
+  //   window.addEventListener('load', () => {
+    //   navigator.serviceWorker.register('/service-worker.js');
+ //  });
+ //}
+</script> 
+    </body>
+</html>
